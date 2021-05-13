@@ -1,0 +1,98 @@
+body 
+{
+  background-color: #D7DBDD;
+  font-family: Bradley Hand, cursive;
+  color: #5DADE2 ;
+}
+header
+{
+ background-color:#A6ACAF;
+ height: 17%;
+}
+nav
+{
+	list-style-type: none;
+	padding-left: 0;
+	margin-left: 0;
+	text-align: right;
+}
+nav li
+{
+display: inline;
+
+}
+nav a:hover {
+  color: #800000;
+}
+
+
+nav a 
+{
+ font-family: Bradley Hand, cursive;
+ font-size: 30px;
+ text-decoration-line: none;
+ color: #5DADE2;
+}
+a p{
+ font-family: Bradley Hand, cursive;
+ font-size: 30px;
+ text-decoration-line: none;
+ color:#5DADE2 ;
+}
+main h1
+{
+  color: #5DADE2;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px; 
+}
+.logo 
+{
+  margin-top: 25px;
+  margin-left: 25px;
+}
+footer
+{
+ height: 10%;
+ text-align: center;
+ background-color:#A6ACAF;
+}
+
+.text 
+{
+ float: left;
+}
+.textimg
+{
+  margin: 2px;
+  float: left;
+}
+
+.blok
+{
+ display: flex;
+ flex: wrap;
+}
+
+.button
+{
+ background-color:#A6ACAF;
+ text-align: center;
+}
+.button:hover
+{
+ background-color:#800000;
+}
+.goods
+{
+    
+ display: inline-block; 
+ width: 600px; 
+ background-color:#A6ACAF;
+     
+}
+.string 
+{
+ text-align: left;
+ font-size:140% ;
+}
