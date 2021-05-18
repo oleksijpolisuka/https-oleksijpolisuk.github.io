@@ -1,7 +1,7 @@
 body 
 {
   background-color: #D7DBDD;
-  font-family: Bradley Hand, cursive;
+  font-family: "Bradley Hand", cursive;
   color: #5DADE2 ;
 }
 header
@@ -9,35 +9,44 @@ header
  background-color:#A6ACAF;
  height: 17%;
 }
-nav
+menu
 {
 	list-style-type: none;
 	padding-left: 0;
 	margin-left: 0;
 	text-align: right;
 }
-nav li
+menu li
 {
 display: inline;
 
 }
-nav a:hover {
+li
+{
+display: inline;
+
+}
+menu a:hover {
   color: #800000;
 }
 
 
-nav a 
+menu a 
 {
- font-family: Bradley Hand, cursive;
+ font-family: "Bradley Hand", cursive;
  font-size: 30px;
  text-decoration-line: none;
  color: #5DADE2;
 }
-a p{
- font-family: Bradley Hand, cursive;
+.contact a {
+ font-family: "Bradley Hand", cursive;
  font-size: 30px;
  text-decoration-line: none;
  color:#5DADE2 ;
+}
+table
+{
+ border: 2px; 
 }
 main h1
 {
@@ -45,11 +54,19 @@ main h1
   font-weight: normal;
   font-size: 36px;
   line-height: 42px; 
+  text-align: center;
+}
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
 }
 .logo 
 {
   margin-top: 25px;
   margin-left: 25px;
+  align-items: center;
 }
 footer
 {
@@ -64,14 +81,14 @@ footer
 }
 .textimg
 {
-  margin: 2px;
+  margin: 1px;
   float: left;
 }
 
 .blok
 {
  display: flex;
- flex: wrap;
+ 
 }
 
 .button
@@ -85,7 +102,7 @@ footer
 }
 .goods
 {
-    
+  text-align: center;   
  display: inline-block; 
  width: 600px; 
  background-color:#A6ACAF;
@@ -95,4 +112,9 @@ footer
 {
  text-align: left;
  font-size:140% ;
+}
+iframe
+{
+  width:100%;
+  height:374px
 }
